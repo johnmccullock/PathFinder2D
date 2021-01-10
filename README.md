@@ -18,10 +18,10 @@ Time to explain some of my terminology (and this project is a testiment to how m
 7.  Proximal Points: alternative start or goal points that are as close as possible to the start or goal.
 
 The algorithm can arrive at these results:
-(1) Found: Best scenario, a nice, complete path from start to goal.
-(2) No solution: No possible path was found.
-(3) Start collision: The start point coincides with an obstacle's tolerance.
-(4) Goal collision: The goal point coincides with an obstacle's tolerance.
+1.  Found: Best scenario, a nice, complete path from start to goal.
+2.  No solution: No possible path was found.
+3.  Start collision: The start point coincides with an obstacle's tolerance.
+4.  Goal collision: The goal point coincides with an obstacle's tolerance.
 
 My algorithm starts by defining a Tolerance around every Avoidable, sort of like a bounding box.  Each tolerance is either a circle or a polygon, your choice.  The Tolerances are added to a list.
 
