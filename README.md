@@ -9,13 +9,13 @@ All things considered, a path is what?  A path is an efficent way around obstacl
 
 Time to explain some of my terminology (and this project is a testiment to how much I hate coming up with names for things).
 
-(1) Waypoint: A point along a path.
-(2) Path: A series of Waypoints leading from a starting point to a goal point.
-(3) Avoidable: A discreet area where a path must not intersect.
-(4) Tolerance: A polygon surrounding an avoidable, representing the minimum safe distance (berth) from the avoidable.
-(5) Spurs: Points around the perimeter of a Tolerance (spurs, like on cowboy boots).
-(6) Tweens: Points located half-way between two Tolerances.
-(7) Proximal Points: alternative start or goal points that are as close as possible to the start or goal.
+1.  Waypoint: A point along a path.
+2.  Path: A series of Waypoints leading from a starting point to a goal point.
+3.  Avoidable: A discreet area where a path must not intersect.
+4.  Tolerance: A polygon surrounding an avoidable, representing the minimum safe distance (berth) from the avoidable.
+5.  Spurs: Points around the perimeter of a Tolerance (spurs, like on cowboy boots).
+6.  Tweens: Points located half-way between two Tolerances.
+7.  Proximal Points: alternative start or goal points that are as close as possible to the start or goal.
 
 The algorithm can arrive at these results:
 (1) Found: Best scenario, a nice, complete path from start to goal.
