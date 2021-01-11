@@ -39,5 +39,7 @@ Which leads to the next part of the algorihtm: defining Proximal points around t
 
 Now, A* has all the points it needs to choose a natural-looking path.
 
+The Smoother2D class is a post-processor that smooths out sharp angles for a round, even path.
 
-The Smoother2D class is a post-processor that smooths out sharp angles for a round, even path. 
+This algorithm still needs some further testing and development, but it's got potential.
+
